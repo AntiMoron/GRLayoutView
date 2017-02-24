@@ -1,0 +1,22 @@
+{
+  "name": "GRLayoutView",
+  "version": "0.1.0",
+  "summary": "A short description of GRLayoutView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/AntiMoron/GRLayoutView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "AntiMoron": "boyuan.gby@alibaba-inc.com"
+  },
+  "source": {
+    "git": "https://github.com/AntiMoron/GRLayoutView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "GRLayoutView/Classes/**/*"
+}

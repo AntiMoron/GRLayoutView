@@ -1,0 +1,6 @@
+framework module GRLayoutView {
+  umbrella header "GRLayoutView-umbrella.h"
+
+  export *
+  module * { export * }
+}

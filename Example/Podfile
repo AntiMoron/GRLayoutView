@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GRLayoutView_Example' do
+  pod 'GRLayoutView', :path => '../'
+
+  target 'GRLayoutView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

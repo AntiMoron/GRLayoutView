@@ -1,0 +1,737 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0795CE9BF9CCA23CBA3B2E00E1F4BD4D /* Pods-GRLayoutView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA946B427C3617CF88D54B4746CCEFF /* Pods-GRLayoutView_Tests-dummy.m */; };
+		11C0FDEF86BD1B1D065FE4500F59ECE8 /* Pods-GRLayoutView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A477B77A44ECF79E375110CB18B7A509 /* Pods-GRLayoutView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22448F0D6D4D7E6AE1A5CCA58A8B876A /* GRVerticalLayoutView.h in Headers */ = {isa = PBXBuildFile; fileRef = 758CE4BDE36E73A63E4BE7D93B079060 /* GRVerticalLayoutView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2872B8001072338C5B847BC378FA4FC2 /* GRVerticalLayoutDefaultHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF2628E8BA9771AA52991F0DEF758E9 /* GRVerticalLayoutDefaultHeaderView.m */; };
+		3750F5C3A0C0E310B4D4B42986C2EA0D /* GRLayoutView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE49C77B089570FA6309F4BA9D82E56F /* GRLayoutView-dummy.m */; };
+		3FC3EE8F17376D8A9A55537A66F4A329 /* GRExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = E27AFEB5B17CF270C6813F79721C44EA /* GRExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4814C6CD68AF43DAB978804318D9A8CB /* GRVerticalLayoutDefaultHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = A7981BFA7F9AD95374E2D9A7D7C09961 /* GRVerticalLayoutDefaultHeaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F3C0798F9038C918A161E4111944BA4 /* GRLayoutView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D84AA64B08E30044A3899E330AE2F05 /* GRLayoutView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55600DEEBB76E2EF61E02E51E7AE73D1 /* GRLayoutView.h in Headers */ = {isa = PBXBuildFile; fileRef = E4D11C0ACA16102C1110BD0D32467A28 /* GRLayoutView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		664B73341E6038BA00FCAD03 /* GRHorizontalLayoutView.h in Headers */ = {isa = PBXBuildFile; fileRef = 664B73321E6038BA00FCAD03 /* GRHorizontalLayoutView.h */; };
+		664B73351E6038BA00FCAD03 /* GRHorizontalLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 664B73331E6038BA00FCAD03 /* GRHorizontalLayoutView.m */; };
+		6F12F964A5D622BB3D6F0A530901C6E6 /* GRExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D97AC11FB57EDB0A5D0613DC0B3401BA /* GRExtensions.m */; };
+		7BA35927EE39CEF4746902091349B82F /* Pods-GRLayoutView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A7823978DD4E433C25F65BC108F82F5 /* Pods-GRLayoutView_Example-dummy.m */; };
+		7EB280D85F49695843DFA6AB8694E547 /* GRVerticalLayoutProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 711EB1AAD35F127F4D7C468EC715EA39 /* GRVerticalLayoutProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EEE5E31FEFD6A37644A3CBDE9D9FF7B /* Pods-GRLayoutView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E316E2AB6AF04561BD2C3E70EF7194DA /* Pods-GRLayoutView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1C66021AA8A0270545F862993980049 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		DFC7DC58DD2C737EB5DBDF28D91B1B0A /* GRVerticalLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6158CF5ED5E57A7BE5D639FD7A89675E /* GRVerticalLayoutView.m */; };
+		EF9B673D381D04BED2A5B06A7659E396 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		F6160218CEAC496F926C9A150756A5E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93CA585579409F9313F8EB74B27F6952 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E76081EE9C59384F05AB386E35EC4102;
+			remoteInfo = GRLayoutView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00735EC9E2CE0E557A69FEA0A8A92B8F /* GRLayoutView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GRLayoutView-prefix.pch"; sourceTree = "<group>"; };
+		02BE76471018ED19CAA173B6FFF37139 /* Pods-GRLayoutView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GRLayoutView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0BD0E315AD65A8EBEF5BD9A9AAF52B2A /* GRLayoutView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GRLayoutView.xcconfig; sourceTree = "<group>"; };
+		0FF2822625B7044EA66D51C8FF936C9C /* Pods-GRLayoutView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GRLayoutView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1811270AE1A7C4FBAD0465D093D121AA /* Pods-GRLayoutView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GRLayoutView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3021F1A8D6FD655B4042A622CF5836DC /* Pods-GRLayoutView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GRLayoutView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		440889333F2B8AC346B93A847C0BD15F /* Pods-GRLayoutView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GRLayoutView_Example.modulemap"; sourceTree = "<group>"; };
+		499669BE8F3EA16F8F72BA9BB931465C /* Pods-GRLayoutView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GRLayoutView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4DE2872EE8DDAF8D6C394C97AD347B94 /* Pods-GRLayoutView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GRLayoutView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5D84AA64B08E30044A3899E330AE2F05 /* GRLayoutView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GRLayoutView-umbrella.h"; sourceTree = "<group>"; };
+		6158CF5ED5E57A7BE5D639FD7A89675E /* GRVerticalLayoutView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GRVerticalLayoutView.m; sourceTree = "<group>"; };
+		664B73321E6038BA00FCAD03 /* GRHorizontalLayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRHorizontalLayoutView.h; sourceTree = "<group>"; };
+		664B73331E6038BA00FCAD03 /* GRHorizontalLayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRHorizontalLayoutView.m; sourceTree = "<group>"; };
+		711EB1AAD35F127F4D7C468EC715EA39 /* GRVerticalLayoutProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GRVerticalLayoutProtocol.h; sourceTree = "<group>"; };
+		7320DBDD9578DABB1AEF247D6D4A2497 /* Pods-GRLayoutView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GRLayoutView_Example-resources.sh"; sourceTree = "<group>"; };
+		758CE4BDE36E73A63E4BE7D93B079060 /* GRVerticalLayoutView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GRVerticalLayoutView.h; sourceTree = "<group>"; };
+		7C5A303C216C5184EAF87CC1BE6ED8A7 /* Pods-GRLayoutView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GRLayoutView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		8A7823978DD4E433C25F65BC108F82F5 /* Pods-GRLayoutView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GRLayoutView_Example-dummy.m"; sourceTree = "<group>"; };
+		91C281F958F5084DA86258D64BA8DB4E /* GRLayoutView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GRLayoutView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		979F165E78437048F0C26F75B6089368 /* Pods_GRLayoutView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GRLayoutView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AF2628E8BA9771AA52991F0DEF758E9 /* GRVerticalLayoutDefaultHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GRVerticalLayoutDefaultHeaderView.m; sourceTree = "<group>"; };
+		A477B77A44ECF79E375110CB18B7A509 /* Pods-GRLayoutView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GRLayoutView_Example-umbrella.h"; sourceTree = "<group>"; };
+		A7981BFA7F9AD95374E2D9A7D7C09961 /* GRVerticalLayoutDefaultHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GRVerticalLayoutDefaultHeaderView.h; sourceTree = "<group>"; };
+		AAA946B427C3617CF88D54B4746CCEFF /* Pods-GRLayoutView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GRLayoutView_Tests-dummy.m"; sourceTree = "<group>"; };
+		AE49C77B089570FA6309F4BA9D82E56F /* GRLayoutView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GRLayoutView-dummy.m"; sourceTree = "<group>"; };
+		B41ED2E11B661B4D3D426B9611E3BCEA /* Pods-GRLayoutView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GRLayoutView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B443EA2857F9202DF36980B715C2712F /* Pods-GRLayoutView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GRLayoutView_Tests.modulemap"; sourceTree = "<group>"; };
+		BD444D3FAED5F747D1F287D9C1B20B16 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C31B2D8948F3DEAE485CA698150D7F98 /* Pods-GRLayoutView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GRLayoutView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D000042F03D3CEE01CFEC6DEB443FFD7 /* Pods_GRLayoutView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GRLayoutView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0A0758098117AD21B67DF2D00ABBEDF /* Pods-GRLayoutView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GRLayoutView_Tests-resources.sh"; sourceTree = "<group>"; };
+		D967401A267DAA14035A87C93E9AE7DB /* Pods-GRLayoutView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GRLayoutView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D97AC11FB57EDB0A5D0613DC0B3401BA /* GRExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GRExtensions.m; sourceTree = "<group>"; };
+		E27AFEB5B17CF270C6813F79721C44EA /* GRExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GRExtensions.h; sourceTree = "<group>"; };
+		E316E2AB6AF04561BD2C3E70EF7194DA /* Pods-GRLayoutView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GRLayoutView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E4D11C0ACA16102C1110BD0D32467A28 /* GRLayoutView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GRLayoutView.h; sourceTree = "<group>"; };
+		E6D9E801CF69C0FEA31030FF5061BA62 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4D7A02AF51A7C6399FCED552214A77C /* GRLayoutView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = GRLayoutView.modulemap; sourceTree = "<group>"; };
+		FC1A14A99669626A37447D281353221F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02A2D8B55A1049279A1CD7100EE902F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF9B673D381D04BED2A5B06A7659E396 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EEBE139A3C327686D9C2B7BA567AAD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1C66021AA8A0270545F862993980049 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA1452DB6F6D3124C277938107219F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6160218CEAC496F926C9A150756A5E2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BBC2084DB79C6B2453AFEFA0409CC11 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4D7A02AF51A7C6399FCED552214A77C /* GRLayoutView.modulemap */,
+				0BD0E315AD65A8EBEF5BD9A9AAF52B2A /* GRLayoutView.xcconfig */,
+				AE49C77B089570FA6309F4BA9D82E56F /* GRLayoutView-dummy.m */,
+				00735EC9E2CE0E557A69FEA0A8A92B8F /* GRLayoutView-prefix.pch */,
+				5D84AA64B08E30044A3899E330AE2F05 /* GRLayoutView-umbrella.h */,
+				BD444D3FAED5F747D1F287D9C1B20B16 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GRLayoutView";
+			sourceTree = "<group>";
+		};
+		64ECC7ADA6CF6A3F87D71B37F065D1D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91C281F958F5084DA86258D64BA8DB4E /* GRLayoutView.framework */,
+				979F165E78437048F0C26F75B6089368 /* Pods_GRLayoutView_Example.framework */,
+				D000042F03D3CEE01CFEC6DEB443FFD7 /* Pods_GRLayoutView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				967928479D0D7E4AD616581A7CC576AA /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				64ECC7ADA6CF6A3F87D71B37F065D1D5 /* Products */,
+				BBB9672E6EDE30C19DE195F852A8D219 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		834EBF1B1F33682754FD2071E857C8F4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E27AFEB5B17CF270C6813F79721C44EA /* GRExtensions.h */,
+				D97AC11FB57EDB0A5D0613DC0B3401BA /* GRExtensions.m */,
+				E4D11C0ACA16102C1110BD0D32467A28 /* GRLayoutView.h */,
+				A7981BFA7F9AD95374E2D9A7D7C09961 /* GRVerticalLayoutDefaultHeaderView.h */,
+				9AF2628E8BA9771AA52991F0DEF758E9 /* GRVerticalLayoutDefaultHeaderView.m */,
+				711EB1AAD35F127F4D7C468EC715EA39 /* GRVerticalLayoutProtocol.h */,
+				758CE4BDE36E73A63E4BE7D93B079060 /* GRVerticalLayoutView.h */,
+				6158CF5ED5E57A7BE5D639FD7A89675E /* GRVerticalLayoutView.m */,
+				664B73321E6038BA00FCAD03 /* GRHorizontalLayoutView.h */,
+				664B73331E6038BA00FCAD03 /* GRHorizontalLayoutView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8DE5C6EAAEAF20C8EEDE02D85F54D8C1 /* GRLayoutView */ = {
+			isa = PBXGroup;
+			children = (
+				834EBF1B1F33682754FD2071E857C8F4 /* Classes */,
+			);
+			path = GRLayoutView;
+			sourceTree = "<group>";
+		};
+		967928479D0D7E4AD616581A7CC576AA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8E3CD163A0240382F74EF312339152D /* GRLayoutView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A97C94D6C6EF544291F78592C853D22D /* Pods-GRLayoutView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FC1A14A99669626A37447D281353221F /* Info.plist */,
+				B443EA2857F9202DF36980B715C2712F /* Pods-GRLayoutView_Tests.modulemap */,
+				02BE76471018ED19CAA173B6FFF37139 /* Pods-GRLayoutView_Tests-acknowledgements.markdown */,
+				0FF2822625B7044EA66D51C8FF936C9C /* Pods-GRLayoutView_Tests-acknowledgements.plist */,
+				AAA946B427C3617CF88D54B4746CCEFF /* Pods-GRLayoutView_Tests-dummy.m */,
+				7C5A303C216C5184EAF87CC1BE6ED8A7 /* Pods-GRLayoutView_Tests-frameworks.sh */,
+				D0A0758098117AD21B67DF2D00ABBEDF /* Pods-GRLayoutView_Tests-resources.sh */,
+				E316E2AB6AF04561BD2C3E70EF7194DA /* Pods-GRLayoutView_Tests-umbrella.h */,
+				D967401A267DAA14035A87C93E9AE7DB /* Pods-GRLayoutView_Tests.debug.xcconfig */,
+				3021F1A8D6FD655B4042A622CF5836DC /* Pods-GRLayoutView_Tests.release.xcconfig */,
+			);
+			name = "Pods-GRLayoutView_Tests";
+			path = "Target Support Files/Pods-GRLayoutView_Tests";
+			sourceTree = "<group>";
+		};
+		BBB9672E6EDE30C19DE195F852A8D219 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD42CFC0C1E2903A87CDC09D181DEFCF /* Pods-GRLayoutView_Example */,
+				A97C94D6C6EF544291F78592C853D22D /* Pods-GRLayoutView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD42CFC0C1E2903A87CDC09D181DEFCF /* Pods-GRLayoutView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E6D9E801CF69C0FEA31030FF5061BA62 /* Info.plist */,
+				440889333F2B8AC346B93A847C0BD15F /* Pods-GRLayoutView_Example.modulemap */,
+				499669BE8F3EA16F8F72BA9BB931465C /* Pods-GRLayoutView_Example-acknowledgements.markdown */,
+				B41ED2E11B661B4D3D426B9611E3BCEA /* Pods-GRLayoutView_Example-acknowledgements.plist */,
+				8A7823978DD4E433C25F65BC108F82F5 /* Pods-GRLayoutView_Example-dummy.m */,
+				1811270AE1A7C4FBAD0465D093D121AA /* Pods-GRLayoutView_Example-frameworks.sh */,
+				7320DBDD9578DABB1AEF247D6D4A2497 /* Pods-GRLayoutView_Example-resources.sh */,
+				A477B77A44ECF79E375110CB18B7A509 /* Pods-GRLayoutView_Example-umbrella.h */,
+				C31B2D8948F3DEAE485CA698150D7F98 /* Pods-GRLayoutView_Example.debug.xcconfig */,
+				4DE2872EE8DDAF8D6C394C97AD347B94 /* Pods-GRLayoutView_Example.release.xcconfig */,
+			);
+			name = "Pods-GRLayoutView_Example";
+			path = "Target Support Files/Pods-GRLayoutView_Example";
+			sourceTree = "<group>";
+		};
+		F8E3CD163A0240382F74EF312339152D /* GRLayoutView */ = {
+			isa = PBXGroup;
+			children = (
+				8DE5C6EAAEAF20C8EEDE02D85F54D8C1 /* GRLayoutView */,
+				3BBC2084DB79C6B2453AFEFA0409CC11 /* Support Files */,
+			);
+			name = GRLayoutView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		28400EDE2801B3F662A37867B24DC1A3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC3EE8F17376D8A9A55537A66F4A329 /* GRExtensions.h in Headers */,
+				4F3C0798F9038C918A161E4111944BA4 /* GRLayoutView-umbrella.h in Headers */,
+				664B73341E6038BA00FCAD03 /* GRHorizontalLayoutView.h in Headers */,
+				55600DEEBB76E2EF61E02E51E7AE73D1 /* GRLayoutView.h in Headers */,
+				4814C6CD68AF43DAB978804318D9A8CB /* GRVerticalLayoutDefaultHeaderView.h in Headers */,
+				7EB280D85F49695843DFA6AB8694E547 /* GRVerticalLayoutProtocol.h in Headers */,
+				22448F0D6D4D7E6AE1A5CCA58A8B876A /* GRVerticalLayoutView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C5B66E3ABFD9A81EFA60C8D5C2A456A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11C0FDEF86BD1B1D065FE4500F59ECE8 /* Pods-GRLayoutView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83DCFF7BB070C8192B841BCFC7FC6BA3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EEE5E31FEFD6A37644A3CBDE9D9FF7B /* Pods-GRLayoutView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7A90A90365F906EB5986CA2C933C21B5 /* Pods-GRLayoutView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B61184F42A9F6A7A410BD36D009679F /* Build configuration list for PBXNativeTarget "Pods-GRLayoutView_Tests" */;
+			buildPhases = (
+				FABFAC39F7496DAC2FD0EC6691AFE67C /* Sources */,
+				1EEBE139A3C327686D9C2B7BA567AAD3 /* Frameworks */,
+				83DCFF7BB070C8192B841BCFC7FC6BA3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GRLayoutView_Tests";
+			productName = "Pods-GRLayoutView_Tests";
+			productReference = D000042F03D3CEE01CFEC6DEB443FFD7 /* Pods_GRLayoutView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7F450300C47A2A88F47157B9DEF8D384 /* Pods-GRLayoutView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B820375482E92D3F59342E6E9C0EA944 /* Build configuration list for PBXNativeTarget "Pods-GRLayoutView_Example" */;
+			buildPhases = (
+				5F6F161DA1C5C7D2BB36963C29D90DC6 /* Sources */,
+				02A2D8B55A1049279A1CD7100EE902F2 /* Frameworks */,
+				6C5B66E3ABFD9A81EFA60C8D5C2A456A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFEF3651DBED883845541CFF9B632444 /* PBXTargetDependency */,
+			);
+			name = "Pods-GRLayoutView_Example";
+			productName = "Pods-GRLayoutView_Example";
+			productReference = 979F165E78437048F0C26F75B6089368 /* Pods_GRLayoutView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E76081EE9C59384F05AB386E35EC4102 /* GRLayoutView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DC3679B075B532ACC2693870434A8F9 /* Build configuration list for PBXNativeTarget "GRLayoutView" */;
+			buildPhases = (
+				C2FACC3D6B56C6C38017EBD8D46FBE96 /* Sources */,
+				FEA1452DB6F6D3124C277938107219F5 /* Frameworks */,
+				28400EDE2801B3F662A37867B24DC1A3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GRLayoutView;
+			productName = GRLayoutView;
+			productReference = 91C281F958F5084DA86258D64BA8DB4E /* GRLayoutView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 64ECC7ADA6CF6A3F87D71B37F065D1D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E76081EE9C59384F05AB386E35EC4102 /* GRLayoutView */,
+				7F450300C47A2A88F47157B9DEF8D384 /* Pods-GRLayoutView_Example */,
+				7A90A90365F906EB5986CA2C933C21B5 /* Pods-GRLayoutView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F6F161DA1C5C7D2BB36963C29D90DC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BA35927EE39CEF4746902091349B82F /* Pods-GRLayoutView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2FACC3D6B56C6C38017EBD8D46FBE96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				664B73351E6038BA00FCAD03 /* GRHorizontalLayoutView.m in Sources */,
+				6F12F964A5D622BB3D6F0A530901C6E6 /* GRExtensions.m in Sources */,
+				3750F5C3A0C0E310B4D4B42986C2EA0D /* GRLayoutView-dummy.m in Sources */,
+				2872B8001072338C5B847BC378FA4FC2 /* GRVerticalLayoutDefaultHeaderView.m in Sources */,
+				DFC7DC58DD2C737EB5DBDF28D91B1B0A /* GRVerticalLayoutView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FABFAC39F7496DAC2FD0EC6691AFE67C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0795CE9BF9CCA23CBA3B2E00E1F4BD4D /* Pods-GRLayoutView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFEF3651DBED883845541CFF9B632444 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GRLayoutView;
+			target = E76081EE9C59384F05AB386E35EC4102 /* GRLayoutView */;
+			targetProxy = 93CA585579409F9313F8EB74B27F6952 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		129B2362E6C9B8CB6BB26C490CBF64F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D967401A267DAA14035A87C93E9AE7DB /* Pods-GRLayoutView_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GRLayoutView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GRLayoutView_Tests/Pods-GRLayoutView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GRLayoutView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1951FDB189B070245443976EA7BAF2DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C31B2D8948F3DEAE485CA698150D7F98 /* Pods-GRLayoutView_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GRLayoutView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GRLayoutView_Example/Pods-GRLayoutView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GRLayoutView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		676AE63210BCF4DC4A840EAC9D69B80A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3021F1A8D6FD655B4042A622CF5836DC /* Pods-GRLayoutView_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GRLayoutView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GRLayoutView_Tests/Pods-GRLayoutView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GRLayoutView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BA1E6D0CCAA02E6EF99D618D8D7BFBF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BD0E315AD65A8EBEF5BD9A9AAF52B2A /* GRLayoutView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GRLayoutView/GRLayoutView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GRLayoutView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GRLayoutView/GRLayoutView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GRLayoutView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C80E3871539A292AC5FD17ED61D6B06A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BD0E315AD65A8EBEF5BD9A9AAF52B2A /* GRLayoutView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GRLayoutView/GRLayoutView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GRLayoutView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GRLayoutView/GRLayoutView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GRLayoutView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F96600DF4223929E3CAC2D9C3409D9ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DE2872EE8DDAF8D6C394C97AD347B94 /* Pods-GRLayoutView_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GRLayoutView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GRLayoutView_Example/Pods-GRLayoutView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GRLayoutView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DC3679B075B532ACC2693870434A8F9 /* Build configuration list for PBXNativeTarget "GRLayoutView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C80E3871539A292AC5FD17ED61D6B06A /* Debug */,
+				BA1E6D0CCAA02E6EF99D618D8D7BFBF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B61184F42A9F6A7A410BD36D009679F /* Build configuration list for PBXNativeTarget "Pods-GRLayoutView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				129B2362E6C9B8CB6BB26C490CBF64F9 /* Debug */,
+				676AE63210BCF4DC4A840EAC9D69B80A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B820375482E92D3F59342E6E9C0EA944 /* Build configuration list for PBXNativeTarget "Pods-GRLayoutView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1951FDB189B070245443976EA7BAF2DC /* Debug */,
+				F96600DF4223929E3CAC2D9C3409D9ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
