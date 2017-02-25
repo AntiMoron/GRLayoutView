@@ -11,6 +11,7 @@
 #endif
 
 #import "GRExtensions.h"
+#import "GRHorizontalLayoutView.h"
 #import "GRLayoutView.h"
 #import "GRVerticalLayoutDefaultHeaderView.h"
 #import "GRVerticalLayoutProtocol.h"
