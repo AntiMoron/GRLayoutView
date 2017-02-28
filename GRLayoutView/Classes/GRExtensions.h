@@ -49,9 +49,27 @@
 
 
 @interface UIView(GRExtensions)<GRVerticalLayoutable, GRHorizontalLayoutable>
+/**
+ *  To create an instance
+ *
+ *  @param frame  size
+ *  @param margin margin - top, right, bottom, left
+ *
+ *  @return instance
+ */
+-(instancetype) initWithLayoutFrame:(CGRect)frame withMargins:(CGRect)margin;
 
 -(CGFloat) GRLayoutLineHeight;
 
 -(CGFloat) GRLayoutViewWidth;
+
+@property(nonatomic, assign) CGFloat GRMarginRight;
+
+@property(nonatomic, assign) CGFloat GRMarginLeft;
+
+@property(nonatomic, assign) CGFloat GRMarginTop;
+
+@property(nonatomic, assign) CGFloat GRMarginBottom;
+
 
 @end

@@ -1,5 +1,5 @@
 PODS:
-  - GRLayoutView (1.0.0)
+  - GRLayoutView (1.0.1)
 
 DEPENDENCIES:
   - GRLayoutView (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  GRLayoutView: 3815fde004746c312ed49560e6cb8061b2e35d8a
+  GRLayoutView: a6b682ea7427db7dd0325705eb0ecfe3f3e16559
 
 PODFILE CHECKSUM: e39cbddbae1f8cc1c4268c1ddf88207aa1225b97
 

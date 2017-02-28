@@ -17,6 +17,19 @@
  *  @return CGFloat
  */
 -(CGFloat) GRLayoutLineHeight;
+@optional
+/**
+ *  Margin left of current view
+ *
+ *  @return CGRect
+ */
+-(CGFloat) GRMarginLeft;
+/**
+ *  Margin right of current view
+ *
+ *  @return CGRect
+ */
+-(CGFloat) GRMarginRight;
 
 @end
 /**
@@ -41,5 +54,18 @@
  *  @return CGFloat
  */
 -(CGFloat) GRLayoutViewWidth;
+@optional
+/**
+ *  Margin top of current view
+ *
+ *  @return CGRect
+ */
+-(CGFloat) GRMarginTop;
+/**
+ *  Margin bottom of current view
+ *
+ *  @return CGRect
+ */
+-(CGFloat) GRMarginBottom;
 
 @end

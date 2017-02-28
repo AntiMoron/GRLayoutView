@@ -102,7 +102,16 @@
     }
     for(UIView<GRVerticalLayoutable>* layerView in self.views) {
         [self addSubview:layerView];
-        layerView.frame = CGRectMake(0, yPos, self.bounds.size.width, layerView.GRLayoutLineHeight);
+        CGFloat leftMargin = 0, rightMargin = 0;
+        if([layerView respondsToSelector:@selector(GRMarginLeft)]) {
+            leftMargin = layerView.GRMarginLeft;
+        }
+        if([layerView respondsToSelector:@selector(GRMarginRight)]) {
+            rightMargin = layerView.GRMarginRight;
+        }
+        layerView.frame = CGRectMake(leftMargin, yPos,
+                                     self.bounds.size.width - leftMargin - rightMargin,
+                                     layerView.GRLayoutLineHeight);
         yPos = CGRectGetMaxY(layerView.frame);
         yPos += self.averageGapSize;
     }
@@ -116,6 +125,12 @@
 
 -(void) setShowHeader:(BOOL)showHeader {
     _showHeader = showHeader;
+    [self setNeedsLayout];
+    [self layoutIfNeeded];
+}
+
+-(void) setHeaderGapSize:(CGFloat)headerGapSize {
+    _headerGapSize = headerGapSize;
     [self setNeedsLayout];
     [self layoutIfNeeded];
 }

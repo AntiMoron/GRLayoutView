@@ -57,7 +57,7 @@
 }
 
 -(UITextField*) createTextField {
-    UITextField* field = [[UITextField alloc] init];
+    UITextField* field = [[UITextField alloc] initWithLayoutFrame:CGRectZero withMargins:CGRectMake(0, 15, 0, 15)];
     field.layer.borderWidth = 1;
     field.layer.cornerRadius = 5;
     field.layer.borderColor = UIColor.lightGrayColor.CGColor;

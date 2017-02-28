@@ -18,7 +18,7 @@
  *
  *  @return instance
  */
--(instancetype) initWithViews:(NSArray<UIView<GRVerticalLayoutable>*>*) views {
+-(instancetype) initWithViews:(NSArray<UIView<GRHorizontalLayoutable>*>*) views {
     self = [self initWithFrame:CGRectZero];
     self.views = views;
     return self;
@@ -66,7 +66,14 @@
     CGFloat xPos = 0;
     for(UIView<GRHorizontalLayoutable>* layerView in self.views) {
         [self addSubview:layerView];
-        layerView.frame = CGRectMake(xPos, 0, layerView.GRLayoutViewWidth, self.bounds.size.height);
+        CGFloat topMargin = 0, bottomMargin = 0;
+        if([layerView respondsToSelector:@selector(GRMarginTop)]) {
+            topMargin = layerView.GRMarginTop;
+        }
+        if([layerView respondsToSelector:@selector(GRMarginBottom)]) {
+            bottomMargin = layerView.GRMarginBottom;
+        }
+        layerView.frame = CGRectMake(xPos, topMargin, layerView.GRLayoutViewWidth, self.bounds.size.height - topMargin - bottomMargin);
         xPos = CGRectGetMaxX(layerView.frame);
         xPos += self.averageGapSize;
     }
@@ -78,7 +85,7 @@
 
 #pragma mark - overload setters
 
--(void) setViews:(NSArray<UIView<GRVerticalLayoutable>*> *)views {
+-(void) setViews:(NSArray<UIView<GRHorizontalLayoutable>*> *)views {
     for(UIView* aSubview in _views) {
         [aSubview removeFromSuperview];
     }
@@ -88,7 +95,7 @@
         if(aSubview == self) {
             continue;
         }
-        if(![aSubview conformsToProtocol:@protocol(GRVerticalLayoutable)]) {
+        if(![aSubview conformsToProtocol:@protocol(GRHorizontalLayoutable)]) {
             continue;
         }
         if(aSubview.superview) {

@@ -11,6 +11,7 @@
 
 #import "GRExtensions.h"
 #import "GRVerticalLayoutView.h"
+#import "GRHorizontalLayoutView.h"
 
 #pragma mark - macro
 
@@ -34,5 +35,21 @@
  *  @return GRVerticalLayoutView
  */
 #define GRVerticalH(H, ...)  _GRVertical(H, __VA_ARGS__)
+/**
+ *  Create a GRHorizontalLayoutView
+ *
+ *  @param Views views that this view manages
+ *
+ *  @return GRHorizontalLayoutView
+ */
+#define _GRHorizontal(...) [[GRHorizontalLayoutView alloc] initWithViews:_GRCreateArray(__VA_ARGS__)]
+/**
+ *  Create a GRHorizontalLayoutView
+ *
+ *  @param Views views that this view manages
+ *
+ *  @return GRHorizontalLayoutView
+ */
+#define GRHorizontal(...) _GRHorizontal(__VA_ARGS__)
 
 #endif /* GRLayoutView_h */
