@@ -71,5 +71,4 @@
 
 @property(nonatomic, assign) CGFloat GRMarginBottom;
 
-
 @end

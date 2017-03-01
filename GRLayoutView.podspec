@@ -1,4 +1,4 @@
-#
+
 # Be sure to run `pod lib lint GRLayoutView.podspec' to ensure this is a
 # valid spec before submitting.
 #
@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GRLayoutView'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'iOS UIView layout component.'
 
   s.description      = <<-DESC

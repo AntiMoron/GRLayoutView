@@ -100,19 +100,26 @@
             yPos += self.headerGapSize;
         }
     }
-    for(UIView<GRVerticalLayoutable>* layerView in self.views) {
-        [self addSubview:layerView];
-        CGFloat leftMargin = 0, rightMargin = 0;
+    for(UIView<GRVerticalLayoutable, GRHorizontalLayoutable>* layerView in self.views) {
+        CGFloat leftMargin = 0, rightMargin = 0, topMargin = 0, bottomMargin = 0;
         if([layerView respondsToSelector:@selector(GRMarginLeft)]) {
             leftMargin = layerView.GRMarginLeft;
         }
         if([layerView respondsToSelector:@selector(GRMarginRight)]) {
             rightMargin = layerView.GRMarginRight;
         }
+        if([layerView respondsToSelector:@selector(GRMarginTop)]) {
+            topMargin = layerView.GRMarginTop;
+        }
+        if([layerView respondsToSelector:@selector(GRMarginBottom)]) {
+            bottomMargin = layerView.GRMarginBottom;
+        }
+        yPos += topMargin;
         layerView.frame = CGRectMake(leftMargin, yPos,
                                      self.bounds.size.width - leftMargin - rightMargin,
                                      layerView.GRLayoutLineHeight);
         yPos = CGRectGetMaxY(layerView.frame);
+        yPos += bottomMargin;
         yPos += self.averageGapSize;
     }
     if(self.views.count > 0) {
@@ -166,7 +173,6 @@
     if(self.showHeader) {
         if(!self.cachedHeaderView) {
             self.cachedHeaderView = [self fetchHeaderView];
-            [self addSubview:self.cachedHeaderView];
         }
         yPos += self.cachedHeaderView.GRLayoutLineHeight;
         if(self.views.count > 0) {
@@ -175,8 +181,16 @@
     }
 
     for(UIView<GRVerticalLayoutable>* layerView in self.views) {
-        [self addSubview:layerView];
+        CGFloat topMargin = 0, bottomMargin = 0;
+        if([layerView respondsToSelector:@selector(GRMarginTop)]) {
+            topMargin = layerView.GRMarginTop;
+        }
+        if([layerView respondsToSelector:@selector(GRMarginBottom)]) {
+            bottomMargin = layerView.GRMarginBottom;
+        }
+        yPos += topMargin;
         yPos += layerView.GRLayoutLineHeight;
+        yPos += bottomMargin;
         yPos += self.averageGapSize;
     }
     if(self.views.count > 0) {
