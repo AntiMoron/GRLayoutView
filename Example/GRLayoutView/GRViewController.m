@@ -49,6 +49,7 @@
     self.submit.backgroundColor = UIColor.orangeColor;
     [self.submit setTitleColor:UIColor.whiteColor forState:UIControlStateNormal];
     [self.submit setTitle:@"submit" forState:UIControlStateNormal];
+    self.submit.GRMarginTop = 50;
 
     self.layoutView = GRVertical(self.textLabel, GRVerticalH(@"User Form", self.userName, self.password), self.submit);
     self.layoutView.frame = self.view.bounds;
