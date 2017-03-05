@@ -13,7 +13,7 @@
 /**
  *  layoutView
  */
-@property(nonatomic, strong) GRVerticalLayoutView* layoutView;
+@property(nonatomic, strong) GRHorizontalLayoutView* layoutView;
 /**
  *  userName
  */
@@ -50,10 +50,12 @@
     [self.submit setTitleColor:UIColor.whiteColor forState:UIControlStateNormal];
     [self.submit setTitle:@"submit" forState:UIControlStateNormal];
     self.submit.GRMarginTop = 50;
-
-    self.layoutView = GRVertical(self.textLabel, GRVerticalH(@"User Form", self.userName, self.password), self.submit);
+    
+    GRVerticalLayoutView* aL = GRVerticalH(@"User Form", self.userName, self.password);
+    aL.GRLayoutMutableViewWidth = 350;
+    self.layoutView = GRHorizontal(self.textLabel, aL, self.submit);
     self.layoutView.frame = self.view.bounds;
-    self.layoutView.headerContent = @"Demo page";
+//    self.layoutView.headerContent = @"Demo page";
     [self.view addSubview:self.layoutView];
 }
 

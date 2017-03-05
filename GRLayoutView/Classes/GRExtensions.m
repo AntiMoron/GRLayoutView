@@ -17,7 +17,7 @@
 
 -(CGFloat) GRLayoutViewWidth {
     CGSize size = [self sizeThatFits:CGSizeMake(FLT_MAX, FLT_MAX)];
-    return size.width;
+    return size.width + 20;
 }
 
 @end
@@ -29,6 +29,10 @@
     return self.titleLabel.font.lineHeight + 20;
 }
 
+-(CGFloat) GRLayoutViewWidth {
+    return [self.titleLabel sizeThatFits:CGSizeZero].width + 20;
+}
+
 @end
 
 
@@ -38,6 +42,10 @@
     return self.font.lineHeight + 20;
 }
 
+-(CGFloat) GRLayoutLineWidth {
+    return UIScreen.mainScreen.bounds.size.width * 0.5;
+}
+
 @end
 
 
@@ -45,6 +53,10 @@
 
 -(CGFloat) GRLayoutLineHeight {
     return self.font.lineHeight + 20;
+}
+
+-(CGFloat) GRLayoutLineWidth {
+    return UIScreen.mainScreen.bounds.size.width * 0.5;
 }
 
 @end
@@ -85,6 +97,14 @@
     objc_setAssociatedObject(self, @"GRMarginBottom", @(GRMarginBottom), OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
+-(void) setGRLayoutMutableViewWidth:(CGFloat)GRLayoutViewWidth {
+    objc_setAssociatedObject(self, @"setGRLayoutMutableViewWidth", @(GRLayoutViewWidth), OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+}
+
+-(void) setGRLayoutMutableLineHeight:(CGFloat)GRLayoutLineHeight {
+    objc_setAssociatedObject(self, @"setGRLayoutMutableLineHeight", @(GRLayoutLineHeight), OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+}
+
 -(CGFloat) GRMarginLeft {
     return [(NSNumber *)objc_getAssociatedObject(self, @"GRMarginLeft") doubleValue];
 }
@@ -102,11 +122,25 @@
 }
 
 -(CGFloat) GRLayoutLineHeight {
+    if(self.GRLayoutMutableLineHeight > 0) {
+        return self.GRLayoutMutableLineHeight;
+    }
     return self.bounds.size.height;
 }
 
 -(CGFloat) GRLayoutViewWidth {
+    if(self.GRLayoutMutableViewWidth > 0) {
+        return self.GRLayoutMutableViewWidth;
+    }
     return self.bounds.size.width;
+}
+
+-(CGFloat) GRLayoutMutableLineHeight {
+    return [(NSNumber *)objc_getAssociatedObject(self, @"setGRLayoutMutableLineHeight") doubleValue];
+}
+
+-(CGFloat) GRLayoutMutableViewWidth {
+    return [(NSNumber *)objc_getAssociatedObject(self, @"setGRLayoutMutableViewWidth") doubleValue];
 }
 
 @end

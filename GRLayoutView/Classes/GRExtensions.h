@@ -70,5 +70,13 @@
 @property(nonatomic, assign) CGFloat GRMarginTop;
 
 @property(nonatomic, assign) CGFloat GRMarginBottom;
+/**
+ *  Set this property to 0 would ommit this value and use frame.size.height instead.
+ */
+@property(nonatomic, assign) CGFloat GRLayoutMutableLineHeight;
+/**
+ *  Set this property to 0 would ommit this value and use width instead.
+ */
+@property(nonatomic, assign) CGFloat GRLayoutMutableViewWidth;
 
 @end

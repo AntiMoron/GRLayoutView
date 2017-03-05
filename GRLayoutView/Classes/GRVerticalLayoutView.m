@@ -199,7 +199,6 @@
     return yPos;
 }
 
-
 -(UIView<GRVerticalLayoutable>*) fetchHeaderView {
     if(self.datasource && [self.datasource respondsToSelector:@selector(GRVerticalLayoutHeaderView)]) {
         return [self.datasource GRVerticalLayoutHeaderView];
