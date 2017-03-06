@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GRLayoutView'
-  s.version          = '1.0.4'
+  s.version          = '1.0.6'
   s.summary          = 'iOS UIView layout component.'
 
   s.description      = <<-DESC
